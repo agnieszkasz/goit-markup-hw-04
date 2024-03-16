@@ -25,11 +25,11 @@ section.first {
       rgba(46, 47, 66, 0.7)
     ),
     url("../images/people-office\ 1\ \(1\).jpg"); */
-  background-image: linear-gradient(
+  /* background-image: linear-gradient(
       rgba(46, 47, 66, 0.7),
       rgba(46, 47, 66, 0.7)
     ),
-    url("../images/people-office\ 1\ \(1\).jpg");
+    url("../images/people-office\ 1\ \(1\).jpg"); */
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
@@ -81,6 +81,11 @@ section.first {
 .first {
   background-color: #2e2f42;
   padding: 188px 0;
+  background-image: linear-gradient(
+      rgba(46, 47, 66, 0.7),
+      rgba(46, 47, 66, 0.7)
+    ),
+    url("../images/people-office\ 1\ \(1\).jpg");
 }
 section.first div {
   display: flex;
@@ -333,6 +338,7 @@ ul.social-icon-list {
   background-color: #f4f4fd;
   border-radius: 4px;
   margin-bottom: 8px;
+  border: 1px solid #8e8f99;
 }
 .social-icons-list-point {
   width: 40px;
